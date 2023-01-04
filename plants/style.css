@@ -537,6 +537,7 @@ footer{
 }
 button:hover{
     background: #E06733;
+    color: #010201;
 }
 button:active{
     background: none;
