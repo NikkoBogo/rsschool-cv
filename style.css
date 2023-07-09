@@ -13,7 +13,7 @@ header{
 }
 nav{
     height: 130px;
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
     font-size: 22px;
     font-weight: bold;
@@ -34,23 +34,23 @@ h2{
     padding-left: 30px;
 }
 .minor-title{
-    max-width: 1440px;
+    max-width: 1000px;
     background-color: #C0C0C0;
     border: 0.5vw ridge rgba(0, 0, 0, 0.6);
 }
 .navigation{
-    width: 1440px;
+    width: 1000px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 main{
-    max-width: 1440px;
+    max-width: 1000px;
     background-color: #FFFAFA;
     margin: 0 auto;
 }
 .contacts{
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .contacts-list{
@@ -74,15 +74,16 @@ main{
     top: 20px;
 }
 .information{
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .information-text{
     padding: 40px 0 0 50px;
     height: 150px;
+    max-width: 900px;
 }
 .education{
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .education-information{
@@ -90,7 +91,7 @@ main{
     height: 150px;
 }
 .myskills{
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .myskills-information{
@@ -106,7 +107,7 @@ main{
     height: 230px;
 }
 .codeexample{
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .myprojects-link{
@@ -136,7 +137,7 @@ footer{
     height: 150px;
 }
 .footer-wrapper{
-    max-width: 1440px;
+    max-width: 1000px;
     height: 150px;
     margin: 0 auto;
     display: flex;
