@@ -1,0 +1,169 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+header{
+    height: 130px;
+}
+nav{
+    height: 130px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    background-color: #C0C0C0;
+    border: 0.7vw ridge rgba(0, 0, 0, 0.6);
+}
+.nav-item:hover{
+    color:#FFFAFA;
+}
+a{
+    cursor: pointer;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    padding-left: 30px;
+}
+.minor-title{
+    max-width: 1000px;
+    background-color: #C0C0C0;
+    border: 0.5vw ridge rgba(0, 0, 0, 0.6);
+}
+.navigation{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    max-width: 1000px;
+    background-color: #FFFAFA;
+    margin: 0 auto;
+}
+.contacts{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contacts-list{
+    padding: 40px 0 0 50px;
+    height: 150px;
+    width: 300px;
+}
+.photo-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+.photo{
+    width: 40%;
+}
+.photo-description{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    position: relative;
+    top: 20px;
+}
+.information{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.information-text{
+    padding: 40px 0 0 50px;
+    height: 150px;
+    max-width: 900px;
+}
+.education{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.education-information{
+    padding: 40px 0 0 50px;
+    height: 150px;
+}
+.myskills{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.myskills-information{
+    padding: 40px 0 0 50px;
+    height: 150px;
+}
+.languages-information{
+    padding: 40px 0 0 50px;
+    height: 150px;
+}
+.code-information{
+    padding: 40px 0 0 50px;
+    height: 230px;
+}
+.codeexample{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.myprojects-link{
+    height: 200px;
+    width: 400px;
+}
+.myprojects{
+    height: 400px;
+}
+.myprojects-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 350px;
+}
+.myprojects-img{
+    width: 100%;
+    cursor: pointer;
+}
+span{
+    padding-right: 330px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+footer{
+    height: 150px;
+}
+.footer-wrapper{
+    max-width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    background-color: #C0C0C0;
+    border: 0.7vw ridge rgba(0, 0, 0, 0.6);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    position: relative;
+    right: 50px;
+}
+.github{
+    width: 80px;
+    cursor: pointer;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+.year{
+    font-size: 30px;
+}
+.myprojects-img:hover{
+    box-shadow: 8px 10px 5px 2px #C0C0C0;
+}
